@@ -7,7 +7,7 @@ class App extends React.Component {
   render () {
     return (
       <div className="App">
-    <h1>Netflix Search</h1>
+    <h1>Film seeker</h1>
     <SearchBar />
     <BusinessList />
   </div>
