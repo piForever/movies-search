@@ -1,13 +1,23 @@
 .SearchBar {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content:  space-evenly;
     background-image: url('./movies_wallpaper2.jpg'); 
     background-size: cover;
     background-repeat: no-repeat;
     height: 25rem;
   }
   
+  
+h1 {
+  padding: .66rem 0;
+  text-align: center;
+  background-color: #e91515d6; 
+  font-family: "Cinzel", serif;
+  font-size: 1.8rem;
+  color: rgb(0, 0, 0);
+}
+
   .SearchBar-sort-options ul {
     display: flex;
     justify-content: center;
@@ -25,6 +35,7 @@
     font-weight: 600;
     font-size: .83rem;
     transition: color .25s;
+    background: rgb(232 255 233 / 42%);
   }
   
   .SearchBar-sort-options li:hover {
@@ -64,10 +75,11 @@
   .SearchBar-submit a {
     border-radius: 4px;
     padding: .72rem 1.7rem;
-    background-color: #e91515;
+    background-color: #e91515d6;
     color: #000000;
     font-weight: 600;
     transition: background-color .5s;
+    text-decoration: none
   }
   
   .SearchBar-submit a:hover {
