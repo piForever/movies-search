@@ -12,6 +12,7 @@ const Movies = {
         if (jsonResponse.results) {
           return jsonResponse.results.map(business => ({
             id: business.id,
+            //imageSrc: "https://www.themoviedb.org/t/p/h30/{business.poster_path}"  , 
             imageSrc: business.poster_path,
             name: business.original_title,
             date: business.release_date,
@@ -23,6 +24,7 @@ const Movies = {
     }
   };
   
+
   
   export default Movies;
   
